@@ -72,7 +72,7 @@ For each of the tasks, the demo prints the selected set of features, its accurac
 - File 10: File 10 contains the output of File 6, for File 8 as the input.
 
 
-### File Formats
+##### File Formats
 
 - File 7: File 7 is a csv file that contains the responses of AMT workers to the survey questions. A response of "1" means that the AMT worker marked the feature as fair to use, in that scenario, while "-1" means that it was marked as unfair to use.
 
