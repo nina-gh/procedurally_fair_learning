@@ -24,7 +24,7 @@ For each of the tasks, the demo prints the selected set of features, its accurac
     Machine Bias: There’s Software Used Across the Country to Predict Future Criminals. And it’s Biased Against Blacks.
     https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing (2016).
 
-[2] Nina Grgi&#263;-Hla&#269a, Muhammad Bilal Zafar, Krishna P. Gummadi, and Adrian Weller. 
+[2] Nina Grgi&#263;-Hla&#269;a, Muhammad Bilal Zafar, Krishna P. Gummadi, and Adrian Weller. 
 	Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning
 	AAAI (2018).
 
