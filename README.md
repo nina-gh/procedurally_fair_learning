@@ -18,5 +18,5 @@ Please cite this paper when using the code.
 ### References
 
 1. <b><a href="https://people.mpi-sws.org/~gummadi/papers/fair_feature_selection.pdf" target="_blank">Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning</a></b><br>
-by Nina Grgi&#263;-Hla&#269a, Muhammad Bilal Zafar, Krishna P. Gummadi, and Adrian Weller<br>
+by Nina Grgi&#263;-Hla&#269;a, Muhammad Bilal Zafar, Krishna P. Gummadi, and Adrian Weller<br>
 <i>To Appear in the Proceedings of the 32nd AAAI Conference on Artificial Inteligence (AAAI)</i>, New Orleans, Louisiana, February 2018.<br>
