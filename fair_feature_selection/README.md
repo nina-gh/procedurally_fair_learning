@@ -1,4 +1,4 @@
-# Fairness Beyond Non-discrimination: Feature Selection for Fair Decision Making
+# Beyond Distributive Fairness in Algorithmic Decision Making: Feature Selection for Procedurally Fair Learning
 
 This repository provides a python implementation of our mechanism for procedurally fair feature selection, as well as the accompanying dataset.
 
