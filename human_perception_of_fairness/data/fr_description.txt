@@ -1,0 +1,44 @@
+Link to survey: http://twitter-app.mpi-sws.org/uhpof_fr/survey.php
+
+
+Survey description: 
+We ask each worker questions about all 10 features. For each feature, we repeat the following:
+	(i) We ask if they believe that it is fair to use the feature in a certain decision making scenario. 
+	They can provide answers on a 7 point Likert scale, where 1 = Strongly disagree, 7 = Strongly agree. 
+
+	(ii) Based on their answer to the previous question, we ask them to tell us all of the reasons that made them believe that it is fair/unfair to use the feature. 
+
+	If their answer was \in [1,4], we show them questions asking them why they thought it was unfair. 
+	If their answer was \in [4,7], we show them questions asking them why they thought it was fair. 
+	This means that if their answer was = 4, we show them both sets of questions.
+
+	As possible answers, we allow them to select multiple of the following 9 reasons: the 8 inherent properties + "other reasons", where we allow them to also write down the other reasons they might have considered. 
+
+	For all of the questions that were shown to them, if a reason was selected, its value is set to 1 in the database, otherwise it is set to 0. 
+	For the questions that were not shown to them, the value is set to np.nan.
+
+
+Data description:
+	The first column is the worker_id. 
+
+	The following 10 columns contain answers to question (i), with column names of the form "fairness__<feature>". Values = [1,7]
+
+	The following 180 columns with names of the form "<inherent_property>__<feature>", containing answers to question (ii). 
+	There are 160 columns for the inheret properties (8 inherent properties * 10 features * 2 fair/unfair) + 20 for "other reasons" (1*10*2). 
+	Values = {0,1,np.nan}
+
+
+10 features: 
+["the defendant\'s current criminal charge", 
+"the defendant\'s criminal history",
+"the criminal history of the defendant\'s family and friends",
+"the defendant\'s history of substance abuse",
+"the stability of the defendant\'s employment and living situation",
+"the safety of the neighborhood the defendant lives in",
+"the defendant\'s education and behavior in school",
+"the quality of the defendant\'s social life and free time",
+"the defendant\'s personality",
+"the defendant\'s beliefs about criminality"]
+
+8 inherent properties: 
+["volitionality", "reliability", "privacy", "relevance", "causes_outcome", "caused_by_sensitive_feature", "causal_loop", "causes_disparity_in_outcomes"]

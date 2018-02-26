@@ -1,0 +1,28 @@
+Link to survey: http://twitter-app.mpi-sws.org/uhpof_ip/survey.php
+
+
+Survey description: 
+We ask each worker questions about all 10 features. 
+For each feature, for each inherent property, we ask them to rate how much they agree with statements of the form <feature> has <inherent_property>. 
+They can provide answers on a 7 point Likert scale, where 1 = Strongly disagree, 7 = Strongly agree. 
+
+
+Data description:
+	The first column is the worker_id. 
+	The following 80 columns containing answers to the questiions, with column names of the form "<inherent_property>__<feature>". Values = [1,7]
+
+
+10 features: 
+["the defendant\'s current criminal charge", 
+"the defendant\'s criminal history",
+"the criminal history of the defendant\'s family and friends",
+"the defendant\'s history of substance abuse",
+"the stability of the defendant\'s employment and living situation",
+"the safety of the neighborhood the defendant lives in",
+"the defendant\'s education and behavior in school",
+"the quality of the defendant\'s social life and free time",
+"the defendant\'s personality",
+"the defendant\'s beliefs about criminality"]
+
+8 inherent properties: 
+["volitionality", "reliability", "privacy", "relevance", "causes_outcome", "caused_by_sensitive_feature", "causal_loop", "causes_disparity_in_outcomes"]
