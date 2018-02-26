@@ -25,4 +25,4 @@ by Nina Grgi&#263;-Hla&#269;a, Muhammad Bilal Zafar, Krishna P. Gummadi, and Adr
 
 2. <b><a href="https://people.mpi-sws.org/~nghlaca/papers/human_perceptions_of_fairness.pdf" target="_blank">Human Perceptions of Fairness in Algorithmic Decision Making: A Case Study of Criminal Risk Prediction</a></b><br>
 by Nina Grgi&#263;-Hla&#269;a, Elissa M. Redmiles, Krishna P. Gummadi, and Adrian Weller<br>
-<i>To Appear in the Proceedings of the Web Conference 2018 (WWW)</i>, Lyon, France, April 2018.<br>
+<i>To Appear in the Proceedings of the Web Conference (WWW)</i>, Lyon, France, April 2018.<br>
