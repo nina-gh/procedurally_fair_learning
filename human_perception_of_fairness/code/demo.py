@@ -40,7 +40,6 @@ def print_cdf(results):
         print "{}, {}".format(i, round(j, 2))
 
 
-# uredi ispisivanje da radi i za verziju bez neutral s_ili_bez_neutral_ratingsima   30 min
 
 
 def demo():        
